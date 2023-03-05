@@ -53,7 +53,7 @@ class War_and_peace:
         txt_len = len(War_and_peace.words)
         if (txt_len == 0):
             War_and_peace.words = War_and_peace.get_words_from_file('war_and_peace.txt')
-        return War_and_peace.words[random.randint(0, txt_len-1)]
+        return random.choice(War_and_peace.words)
 
     @staticmethod
     def get_words_from_file(file_name):
