@@ -3,7 +3,7 @@ from task2_run_python_code import app
 import json
 from urllib.parse import unquote_plus
 
-class MyTestCase(unittest.TestCase):
+class TestEndPointPythonCode(unittest.TestCase):
 
     def setUp(self):
         app.config['TESTING'] = True
