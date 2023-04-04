@@ -1,0 +1,18 @@
+{"time": "18:12:20", "level": "INFO", "message": "Вы пытаетесь аутентифицироваться в Skillbox"}
+{"time": "18:12:20", "level": "INFO", "message": "У вас есть 3 попытки"}
+{"time": "18:12:23", "level": "WARNING", "message": "Вы ввели пустой пароль"}
+{"time": "18:12:23", "level": "WARNING", "message": "Вы ввели пустой пароль"}
+{"time": "18:12:23", "level": "ERROR", "message": "Пользователь трижды ввёл неправильный пароль!"}
+{"time": "18:56:33", "level": "INFO", "message": "Вы пытаетесь аутентифицироваться в Skillbox"}
+{"time": "18:56:33", "level": "INFO", "message": "У вас есть 3 попытки"}
+{"time": "18:56:37", "level": "WARNING", "message": "Вы ввели пустой пароль"}
+{"time": "18:56:46", "level": "ERROR", "message": "Вы ввели некорректный символ"}
+Traceback (most recent call last):
+  File "/home/resh/PycharmProjects/pythonProject/mod6/task3/task3.py", line 25, in input_and_check_password
+    hasher.update(password.encode('latin-1'))
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 0-6: ordinal not in range(256)
+{"time": "18:56:46", "level": "ERROR", "message": "Пользователь трижды ввёл неправильный пароль!"}
+{"time": "18:56:50", "level": "INFO", "message": "Вы пытаетесь аутентифицироваться в Skillbox"}
+{"time": "18:56:50", "level": "INFO", "message": "У вас есть 3 попытки"}
+{"time": "18:56:56", "level": "WARNING", "message": "Вы ввели пустой пароль"}
+{"time": "18:56:56", "level": "ERROR", "message": "Пользователь трижды ввёл неправильный пароль!"}

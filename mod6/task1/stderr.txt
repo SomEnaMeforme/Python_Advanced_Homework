@@ -1,0 +1,10 @@
+
+14:58:43 [INFO]  - Вы пытаетесь аутентифицироваться в Skillbox
+14:58:43 [INFO]  - У вас есть 3 попытки
+14:58:55 [ERROR]  - Вы ввели некорректный символ
+Traceback (most recent call last):
+  File "/home/resh/PycharmProjects/pythonProject/mod6/task1/task1.py", line 16, in input_and_check_password
+    hasher.update(password.encode('latin-1'))
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 19-23: ordinal not in range(256)
+14:58:56 [WARNING]  - Вы ввели пустой пароль
+14:59:02 [ERROR]  - Пользователь трижды ввёл неправильный пароль!
