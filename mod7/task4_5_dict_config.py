@@ -40,16 +40,23 @@ dict_config = {
             "level": "INFO",
             'filters': ["asciifilter"]
         },
+        "httpPostLogs": {
+            "class": "logging.handlers.HTTPHandler",
+            "host": "127.0.0.1:5000",
+            "url": "/post_logs",
+            "method": "POST",
+            "level": "DEBUG",
+        }
     },
     "loggers": {
                 'CalculationLoggerApps': {
                     "level": "DEBUG",
-                    "handlers": ["file", "console"],
+                    "handlers": ["file", "console", "httpPostLogs"],
                     "propagate": False
                 },
                 'CalculationLoggerUtils': {
                     "level": "DEBUG",
-                    "handlers": ["time_file", "console"],
+                    "handlers": ["time_file", "console", "httpPostLogs"],
                     "propagate": False
                 }
     }

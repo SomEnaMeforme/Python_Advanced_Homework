@@ -20,18 +20,19 @@ t = ''
 r = 0
 if v == 1:
     r = sum(q1, q2)
-    p = 'сложения'
+    p = 'sum'
     t = p
 if v == 2:
     r = subtract(q1, q2)
-    l = 'вычитания'
+    l = 'subtract'
     t = l
 if v == 3:
     r = divide(q1, q2)
-    m = 'деления'
+    m = 'divide'
     t = m
 if v == 4:
     r = multiply(q1, q2)
-    n = 'умножения'
+    n = 'multiply'
     t = n
 logger.info(f'Результат {t} = {r}')
+logger.info(f'Result of {t} = {r}')
