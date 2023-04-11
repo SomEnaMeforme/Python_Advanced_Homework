@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок страницы</title>
+
+  </head>
+  <body bgcolor="blue">
+    <header>
+      <h1>Это мой сайт</h1>
+      <p>Он хороший</p>
+    </header>
+    <main>
+      <article>
+        <section>
+          <h2>Первая секция</h2>
+          <p>Она обо мне</p>
+          <p>Но может быть и о семантике, я пока не решил.</p>
+        </section>
+        <section>
+          <h2>Вторая секция</h2>
+          <p>Она тоже обо мне</p>
+        </section>
+        <section>
+          <h2>И третья</h2>
+          <p>Вы уже должны были начать догадываться.</p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>Сюда бы я вписал информацию об авторе и ссылки на другие сайты</p>
+    </footer>
+    <script src="{{url_for('static', filename='snowstorm.js') }}"></script>
+  </body>
+</html>
