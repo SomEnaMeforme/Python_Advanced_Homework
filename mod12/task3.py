@@ -26,6 +26,8 @@ if __name__ == '__main__':
     try:
         t1.start()
         t2.start()
+        while True:
+            time.sleep(0)
     except KeyboardInterrupt:
         print('\nReceived keyboard interrupt, quitting threads.')
         exit(1)
